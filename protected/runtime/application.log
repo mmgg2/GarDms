@@ -1,0 +1,865 @@
+2013/06/14 15:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "deleteCaching" solicitada.' in /var/www/framework_yii/framework/yiilite.php:3422
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3304): CController->missingAction('deleteCaching')
+#1 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#2 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#3 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/seguroMetal/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+HTTP_REFERER=http://localhost/seguroMetal/index.php?r=usuarios/admin
+---
+2013/06/14 15:28:27 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+HTTP_REFERER=http://localhost/seguroMetal/index.php?r=usuarios/admin
+---
+2013/06/14 15:28:57 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+HTTP_REFERER=http://localhost/seguroMetal/index.php?r=usuarios/admin
+---
+2013/06/14 15:29:56 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+HTTP_REFERER=http://localhost/seguroMetal/index.php?r=usuarios/admin
+---
+2013/06/14 15:31:27 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+HTTP_REFERER=http://localhost/seguroMetal/index.php?r=usuarios/admin
+---
+2013/06/14 15:31:43 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+---
+2013/06/14 15:32:19 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+---
+2013/06/14 15:32:20 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+---
+2013/06/14 15:32:27 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+---
+2013/06/14 15:32:46 [error] [exception.CException] exception 'CException' with message 'ConfigController and its behaviors do not have a method or closure named "actiondeleteCaching".' in /var/www/framework_yii/framework/yiilite.php:690
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3812): CComponent->__call('actiondeleteCac...', Array)
+#1 /var/www/framework_yii/framework/yiilite.php(3812): ConfigController->actiondeleteCaching()
+#2 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#3 /var/www/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#4 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#5 /var/www/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#6 /var/www/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#9 /var/www/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/framework_yii/framework/yiilite.php(1699): CController->run('deleteCaching')
+#11 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/deleteCa...')
+#12 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#13 /var/www/seguroMetal/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+---
+2013/06/14 15:33:16 [error] [php] opendir(http://localhost/seguroMetal/temporalDoc/): failed to open dir: not implemented (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:34:10 [error] [php] opendir(Yii::app()->request->getBaseUrl(true)/temporalDoc/): failed to open dir: No such file or directory (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:34:19 [error] [php] opendir(http://localhost/seguroMetal/temporalDoc/): failed to open dir: not implemented (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:37:41 [error] [php] opendir(/temporalDoc/): failed to open dir: No such file or directory (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:40:22 [error] [php] opendir(/var/www/temporalDoc/): failed to open dir: No such file or directory (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:40:57 [error] [php] Undefined index: DOCUMENT_ROOT (/var/www/seguroMetal/protected/controllers/ConfigController.php:150)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#1 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#2 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#3 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#4 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#5 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#6 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#7 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#8 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#9 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#10 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:41:05 [error] [php] opendir(/var/www/temporalDoc/): failed to open dir: No such file or directory (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:41:59 [error] [php] opendir(/temporalDoc/): failed to open dir: No such file or directory (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:44:07 [error] [php] opendir(var/www/seguroMetal/temporalDoc/): failed to open dir: No such file or directory (/var/www/seguroMetal/protected/controllers/ConfigController.php:151)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#1 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#2 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#3 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#4 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#5 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#6 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#7 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#8 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#9 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#10 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#11 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/14 15:46:10 [error] [php] Undefined variable: dir (/var/www/seguroMetal/protected/controllers/ConfigController.php:154)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(6255): ConfigController->runAction()
+#1 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#2 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#3 /var/www/framework_yii/framework/yiilite.php(6297): ConfigController->filterAccessControl()
+#4 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#5 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#6 /var/www/framework_yii/framework/yiilite.php(3299): ConfigController->runActionWithFilters()
+#7 /var/www/framework_yii/framework/yiilite.php(1699): ConfigController->run()
+#8 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#9 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#10 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=config/deleteCaching
+2013/06/24 20:36:18 [error] [php] Undefined variable: log (/var/www/seguroMetal/protected/controllers/DocumentosController.php:360)
+Stack trace:
+#0 /var/www/framework_yii/framework/yiilite.php(6255): DocumentosController->runAction()
+#1 /var/www/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#2 /var/www/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#3 /var/www/framework_yii/framework/yiilite.php(6297): DocumentosController->filterAccessControl()
+#4 /var/www/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#5 /var/www/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#6 /var/www/framework_yii/framework/yiilite.php(3299): DocumentosController->runActionWithFilters()
+#7 /var/www/framework_yii/framework/yiilite.php(1699): DocumentosController->run()
+#8 /var/www/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#9 /var/www/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#10 /var/www/seguroMetal/index.php(15): CWebApplication->run()
+REQUEST_URI=/seguroMetal/index.php?r=documentos/PrinterDoc
+2017/08/18 10:40:17 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2017/08/18 10:40:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/seguroMetal/framework_yii/framework/yiilite.php:7930
+Stack trace:
+#0 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(7896): CDbConnection->open()
+#1 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(7885): CDbConnection->setActive(true)
+#2 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(1046): CDbConnection->init()
+#3 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(1265): CModule->getComponent('db')
+#4 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(6962): CApplication->getDb()
+#5 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(7785): CActiveRecord->getDbConnection()
+#6 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(Usuarios))
+#7 /var/www/html/seguroMetal/protected/models/Usuarios.php(25): CActiveRecord::model('Usuarios')
+#8 /var/www/html/seguroMetal/protected/components/UserIdentity.php(40): Usuarios::model()
+#9 /var/www/html/seguroMetal/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#10 /var/www/html/seguroMetal/framework_yii/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#11 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(9414): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(6483): CValidator->validate(Object(LoginForm), NULL)
+#13 /var/www/html/seguroMetal/protected/controllers/SiteController.php(52): CModel->validate()
+#14 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(3812): SiteController->actionIndex()
+#15 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#16 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(3309): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(1699): CController->run('')
+#19 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('')
+#20 /var/www/html/seguroMetal/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#21 /var/www/html/seguroMetal/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/seguroMetal/
+HTTP_REFERER=http://localhost/seguroMetal/
+---
+2017/08/18 15:34:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.user' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `user`.
+2017/08/18 15:34:14 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "user" definida en la clase active record "Usuarios" no se ha podido encontrar en la base de datos.' in /var/www/html/gestordoc/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(Usuarios))
+#1 /var/www/html/gestordoc/protected/models/Usuarios.php(25): CActiveRecord::model('Usuarios')
+#2 /var/www/html/gestordoc/protected/components/UserIdentity.php(40): Usuarios::model()
+#3 /var/www/html/gestordoc/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#4 /var/www/html/gestordoc/framework_yii/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#5 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(9414): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6483): CValidator->validate(Object(LoginForm), NULL)
+#7 /var/www/html/gestordoc/protected/controllers/SiteController.php(52): CModel->validate()
+#8 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3812): SiteController->actionIndex()
+#9 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#10 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3309): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1699): CController->run('')
+#13 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('')
+#14 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#15 /var/www/html/gestordoc/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/gestordoc/
+HTTP_REFERER=http://localhost/gestordoc/
+---
+2017/08/18 17:02:29 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebUser"."habilitado" no se encuentra definida.' in /var/www/html/gestordoc/framework_yii/framework/yiilite.php:596
+Stack trace:
+#0 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3836): CComponent->__get('habilitado')
+#1 /var/www/html/gestordoc/protected/controllers/SiteController.php(53): CWebUser->__get('habilitado')
+#2 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3812): SiteController->actionIndex()
+#3 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#4 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3309): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1699): CController->run('')
+#7 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('')
+#8 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#9 /var/www/html/gestordoc/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/gestordoc/
+HTTP_REFERER=http://localhost/gestordoc/
+---
+2017/08/18 17:18:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.siniestros' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `siniestros`.
+2017/08/18 17:18:13 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "siniestros" definida en la clase active record "Siniestros" no se ha podido encontrar en la base de datos.' in /var/www/html/gestordoc/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(Siniestros))
+#1 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6905): CActiveRecord::model('Siniestros')
+#2 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6733): CActiveRecord->getMetaData()
+#3 /var/www/html/gestordoc/protected/controllers/SiniestrosController.php(233): CActiveRecord->__construct('search')
+#4 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3812): SiniestrosController->actionAdmin()
+#5 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#6 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#8 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#12 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#14 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('siniestros/admi...')
+#15 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#16 /var/www/html/gestordoc/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/gestordoc/index.php?r=siniestros/admin
+HTTP_REFERER=http://localhost/gestordoc/
+---
+2017/08/18 17:37:32 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebUser"."categoria" no se encuentra definida.' in /var/www/html/gestordoc/framework_yii/framework/yiilite.php:596
+Stack trace:
+#0 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3836): CComponent->__get('categoria')
+#1 /var/www/html/gestordoc/protected/views/layouts/main.php(64): CWebUser->__get('categoria')
+#2 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3173): require('/var/www/html/g...')
+#3 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3152): CBaseController->renderInternal('/var/www/html/g...', Array, true)
+#4 /var/www/html/gestordoc/framework_yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/var/www/html/g...', Array, true)
+#5 /var/www/html/gestordoc/framework_yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 /var/www/html/gestordoc/framework_yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3212): COutputProcessor->run()
+#8 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3250): CBaseController->endWidget('CContentDecorat...')
+#9 /var/www/html/gestordoc/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#10 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3173): require('/var/www/html/g...')
+#11 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3152): CBaseController->renderInternal('/var/www/html/g...', Array, true)
+#12 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3546): CBaseController->renderFile('/var/www/html/g...', Array, true)
+#13 /var/www/html/gestordoc/protected/controllers/SiteController.php(69): CController->render('login', Array)
+#14 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3812): SiteController->actionIndex()
+#15 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#16 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3309): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1699): CController->run('')
+#19 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('')
+#20 /var/www/html/gestordoc/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#21 /var/www/html/gestordoc/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/gestordoc/index.php
+HTTP_REFERER=http://localhost/gestordoc/index.php?r=site/login
+---
+2017/08/18 18:00:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.siniestros' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `siniestros`.
+2017/08/18 18:00:52 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "siniestros" definida en la clase active record "Siniestros" no se ha podido encontrar en la base de datos.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(Siniestros))
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(6905): CActiveRecord::model('Siniestros')
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(6733): CActiveRecord->getMetaData()
+#3 /var/www/html/gardms/protected/controllers/SiniestrosController.php(233): CActiveRecord->__construct('search')
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): SiniestrosController->actionAdmin()
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('siniestros/admi...')
+#15 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#16 /var/www/html/gardms/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/gardms/index.php?r=siniestros/admin
+HTTP_REFERER=http://localhost/gardms/
+---
+2017/08/23 10:41:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.siniestros' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `siniestros`.
+2017/08/23 10:41:28 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "siniestros" definida en la clase active record "Siniestros" no se ha podido encontrar en la base de datos.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(Siniestros))
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(6905): CActiveRecord::model('Siniestros')
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(6733): CActiveRecord->getMetaData()
+#3 /var/www/html/gardms/protected/controllers/SiniestrosController.php(233): CActiveRecord->__construct('search')
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): SiniestrosController->actionAdmin()
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('siniestros/admi...')
+#15 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#16 /var/www/html/gardms/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/gardms/index.php?r=siniestros/admin
+HTTP_REFERER=http://localhost/gardms/
+---
+2017/08/23 10:54:01 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebUser"."categoria" no se encuentra definida.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:596
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(3836): CComponent->__get('categoria')
+#1 /var/www/html/gardms/protected/views/siniestros/admin.php(55): CWebUser->__get('categoria')
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(3173): require('/var/www/html/g...')
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3152): CBaseController->renderInternal('/var/www/html/g...', Array, true)
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3576): CBaseController->renderFile('/var/www/html/g...', Array, true)
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(3544): CController->renderPartial('admin', Array, true)
+#6 /var/www/html/gardms/protected/controllers/SiniestrosController.php(240): CController->render('admin', Array)
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): SiniestrosController->actionAdmin()
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#15 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#17 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('siniestros/admi...')
+#18 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#19 /var/www/html/gardms/index.php(15): CApplication->run()
+#20 {main}
+REQUEST_URI=/gardms/index.php?r=siniestros/admin
+HTTP_REFERER=http://localhost/gardms/
+---
+2017/08/23 10:57:07 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebUser"."categoria" no se encuentra definida.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:596
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(3836): CComponent->__get('categoria')
+#1 /var/www/html/gardms/protected/views/siniestros/admin.php(55): CWebUser->__get('categoria')
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(3173): require('/var/www/html/g...')
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3152): CBaseController->renderInternal('/var/www/html/g...', Array, true)
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3576): CBaseController->renderFile('/var/www/html/g...', Array, true)
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(3544): CController->renderPartial('admin', Array, true)
+#6 /var/www/html/gardms/protected/controllers/SiniestrosController.php(240): CController->render('admin', Array)
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): SiniestrosController->actionAdmin()
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#15 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#17 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('siniestros/admi...')
+#18 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#19 /var/www/html/gardms/index.php(15): CApplication->run()
+#20 {main}
+REQUEST_URI=/gardms/index.php?r=siniestros/admin
+HTTP_REFERER=http://localhost/gardms/
+---
+2017/08/23 12:08:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.moderatorDocumentos' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `moderatorDocumentos`.
+2017/08/23 12:08:05 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "moderatorDocumentos" definida en la clase active record "ModeratorDocumentos" no se ha podido encontrar en la base de datos.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(ModeratorDocumentos))
+#1 /var/www/html/gardms/protected/models/ModeratorDocumentos.php(24): CActiveRecord::model('ModeratorDocume...')
+#2 /var/www/html/gardms/protected/controllers/UsuariosController.php(151): ModeratorDocumentos::model()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): UsuariosController->actionAdmin()
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('usuarios/admin')
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#15 /var/www/html/gardms/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/gardms/index.php?r=usuarios/admin
+HTTP_REFERER=http://localhost/gardms/index.php?r=siniestros/admin
+---
+2017/08/23 12:09:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.moderatorDocumentos' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `moderatorDocumentos`.
+2017/08/23 12:09:02 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "moderatorDocumentos" definida en la clase active record "ModeratorDocumentos" no se ha podido encontrar en la base de datos.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(ModeratorDocumentos))
+#1 /var/www/html/gardms/protected/models/ModeratorDocumentos.php(24): CActiveRecord::model('ModeratorDocume...')
+#2 /var/www/html/gardms/protected/controllers/UsuariosController.php(151): ModeratorDocumentos::model()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): UsuariosController->actionAdmin()
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('usuarios/admin')
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#15 /var/www/html/gardms/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/gardms/index.php?r=usuarios/admin
+HTTP_REFERER=http://localhost/gardms/index.php?r=siniestros/admin
+---
+2017/08/23 12:09:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.moderatorDocumentos' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `moderatorDocumentos`.
+2017/08/23 12:09:24 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "moderatorDocumentos" definida en la clase active record "ModeratorDocumentos" no se ha podido encontrar en la base de datos.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(ModeratorDocumentos))
+#1 /var/www/html/gardms/protected/models/ModeratorDocumentos.php(24): CActiveRecord::model('ModeratorDocume...')
+#2 /var/www/html/gardms/protected/controllers/UsuariosController.php(151): ModeratorDocumentos::model()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): UsuariosController->actionAdmin()
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('admin')
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('usuarios/admin')
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#15 /var/www/html/gardms/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/gardms/index.php?r=usuarios/admin
+HTTP_REFERER=http://localhost/gardms/index.php?r=siniestros/admin
+---
+2017/08/23 12:18:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestorDoc.config' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `config`.
+2017/08/23 12:18:29 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "config" definida en la clase active record "Config" no se ha podido encontrar en la base de datos.' in /var/www/html/gardms/framework_yii/framework/yiilite.php:7786
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(6895): CActiveRecordMetaData->__construct(Object(Config))
+#1 /var/www/html/gardms/protected/models/Config.php(24): CActiveRecord::model('Config')
+#2 /var/www/html/gardms/protected/controllers/ConfigController.php(180): Config::model()
+#3 /var/www/html/gardms/protected/controllers/ConfigController.php(55): ConfigController->loadModel('1')
+#4 [internal function]: ConfigController->actionView('1')
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(3793): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(3810): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams(Array)
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CFilter->filter(Object(CFilterChain))
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): CController->run('view')
+#16 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController('config/view')
+#17 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#18 /var/www/html/gardms/index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/gardms/index.php?r=config/view&id=1
+HTTP_REFERER=http://localhost/gardms/index.php?r=usuarios/admin
+---
+2017/08/23 14:56:48 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 14:56:55 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 14:59:26 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:00:40 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:15:36 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:24:27 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:24:36 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:27:54 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:29:14 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:29:35 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:29:53 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:30:41 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:30:49 [error] [php] include(/var/www/seguroMetal/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:31:54 [error] [php] include(/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 15:32:00 [error] [php] include(/protected/extensions/FPDI-1.4.2/fpdi.php): failed to open stream: No such file or directory (/var/www/html/gardms/protected/extensions/FPDI-1.4.2/concat_pdf.php:4)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(1745): require()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(1693): CWebApplication->createController()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#4 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/23 16:35:05 [error] [php] Undefined index: base_dir (/var/www/html/gardms/protected/views/documentos/admin.php:164)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /var/www/html/gardms/framework_yii/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /var/www/html/gardms/framework_yii/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /var/www/html/gardms/framework_yii/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /var/www/html/gardms/framework_yii/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /var/www/html/gardms/framework_yii/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /var/www/html/gardms/framework_yii/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /var/www/html/gardms/framework_yii/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(3198): CGridView->run()
+#10 /var/www/html/gardms/protected/views/documentos/admin.php(223): DocumentosController->widget()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3173): require()
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(3152): DocumentosController->renderInternal()
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(3576): DocumentosController->renderFile()
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(3544): DocumentosController->renderPartial()
+#15 /var/www/html/gardms/protected/controllers/DocumentosController.php(296): DocumentosController->render()
+#16 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): DocumentosController->actionAdmin()
+#17 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#18 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): DocumentosController->runAction()
+#19 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#20 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#21 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): DocumentosController->filterAccessControl()
+#22 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#23 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#24 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): DocumentosController->runActionWithFilters()
+#25 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): DocumentosController->run()
+#26 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#27 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#28 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=documentos/admin&idSiniestro=0&desc=Siniestro%3A+rama1-codigo1
+2017/08/29 14:44:51 [error] [php] fopen(Logger/loggerSeguroMetal.log): failed to open stream: Permission denied (/var/www/html/gardms/Logger/logger.php:21)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): SiteController->actionIndex()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(3309): SiteController->runAction()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): SiteController->runActionWithFilters()
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): SiteController->run()
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#7 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/
+2017/08/29 14:44:55 [error] [php] fopen(Logger/loggerSeguroMetal.log): failed to open stream: Permission denied (/var/www/html/gardms/Logger/logger.php:21)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): SiniestrosController->actionAdmin()
+#1 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): SiniestrosController->runAction()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): SiniestrosController->filterAccessControl()
+#6 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): SiniestrosController->runActionWithFilters()
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): SiniestrosController->run()
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#12 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=siniestros/admin
+2017/08/29 15:01:27 [error] [php] Use of undefined constant none - assumed 'none' (/var/www/html/gardms/protected/views/usuarios/_form.php:43)
+Stack trace:
+#0 /var/www/html/gardms/framework_yii/framework/yiilite.php(3576): UsuariosController->renderFile()
+#1 /var/www/html/gardms/protected/views/usuarios/create.php(18): UsuariosController->renderPartial()
+#2 /var/www/html/gardms/framework_yii/framework/yiilite.php(3173): require()
+#3 /var/www/html/gardms/framework_yii/framework/yiilite.php(3152): UsuariosController->renderInternal()
+#4 /var/www/html/gardms/framework_yii/framework/yiilite.php(3576): UsuariosController->renderFile()
+#5 /var/www/html/gardms/framework_yii/framework/yiilite.php(3544): UsuariosController->renderPartial()
+#6 /var/www/html/gardms/protected/controllers/UsuariosController.php(84): UsuariosController->render()
+#7 /var/www/html/gardms/framework_yii/framework/yiilite.php(3812): UsuariosController->actionCreate()
+#8 /var/www/html/gardms/framework_yii/framework/yiilite.php(3324): CInlineAction->runWithParams()
+#9 /var/www/html/gardms/framework_yii/framework/yiilite.php(6255): UsuariosController->runAction()
+#10 /var/www/html/gardms/framework_yii/framework/yiilite.php(6264): CFilterChain->run()
+#11 /var/www/html/gardms/framework_yii/framework/yiilite.php(3702): CAccessControlFilter->filter()
+#12 /var/www/html/gardms/framework_yii/framework/yiilite.php(6297): UsuariosController->filterAccessControl()
+#13 /var/www/html/gardms/framework_yii/framework/yiilite.php(6252): CInlineFilter->filter()
+#14 /var/www/html/gardms/framework_yii/framework/yiilite.php(3314): CFilterChain->run()
+#15 /var/www/html/gardms/framework_yii/framework/yiilite.php(3299): UsuariosController->runActionWithFilters()
+#16 /var/www/html/gardms/framework_yii/framework/yiilite.php(1699): UsuariosController->run()
+#17 /var/www/html/gardms/framework_yii/framework/yiilite.php(1619): CWebApplication->runController()
+#18 /var/www/html/gardms/framework_yii/framework/yiilite.php(1144): CWebApplication->processRequest()
+#19 /var/www/html/gardms/index.php(15): CWebApplication->run()
+REQUEST_URI=/gardms/index.php?r=usuarios/create

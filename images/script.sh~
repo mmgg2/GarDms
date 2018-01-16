@@ -1,0 +1,7 @@
+#!/bin/bash
+# muestra_param.sh
+cd '/var/www/xxxx/images'
+
+convert doc1.jpg archivo.pdf
+
+echo "El 1er parámetro es: $1"
